@@ -4,7 +4,7 @@ import { TCharacter, fetchCharacters } from '../api/characters'
 class CharacterStore {
 	characters: TCharacter[] = []
 	page = 1
-  statusFilter = 'all'
+	statusFilter = 'all'
 	anchor: null | number = null
 	isLoading = false
 	hasMore = true
@@ -45,13 +45,13 @@ class CharacterStore {
 		}
 	}
 
-  setFilter(status: string) {
-    this.statusFilter = status;
-    this.characters = []; // Сбрасываем старые данные
-    this.page = 1;
-    this.hasMore = true;
-    this.loadCharacters(); // Загружаем с новым фильтром
-  }
+	setFilter(status: string) {
+		this.statusFilter = status
+		this.characters = []
+		this.page = 1
+		this.hasMore = true
+		this.loadCharacters()
+	}
 }
 
 export const characterStore = new CharacterStore()

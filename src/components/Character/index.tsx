@@ -31,23 +31,11 @@ export const Character: FC<TCharacterProps> = ({
 				header={name}
 				subheader={
 					<>
-						{/* <MiniInfoCell
-						//before={<Icon20FollowersOutline />}
-						>
-							<Spacing>
-							status · {status} 
-							</Spacing>
-							<Spacing>
-							species · {species}  
-							</Spacing>
-							<Spacing>
-							gender · {gender}
-							</Spacing>
-							
-						</MiniInfoCell> */}
-						<li>"status": {status}</li>
-						<li>"species": {species}</li>
-						<li>"gender": {gender}</li>
+						<ul>
+							<li>"status": {status}</li>
+							<li>"species": {species}</li>
+							<li>"gender": {gender}</li>
+						</ul>
 					</>
 				}
 				actions={

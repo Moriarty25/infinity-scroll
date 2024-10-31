@@ -26,7 +26,10 @@ interface FetchCharactersState {
 	error: string | null
 }
 
-export async function fetchCharacters(page: number, status: string = 'all'): Promise<FetchCharactersState> {
+export async function fetchCharacters(
+	page: number,
+	status: string = 'all'
+): Promise<FetchCharactersState> {
 	const state: FetchCharactersState = {
 		characters: [],
 		isLoading: true,

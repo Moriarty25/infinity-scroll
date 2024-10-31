@@ -7,9 +7,8 @@ export const StatusFilter = observer(() => {
 	const handleFilterChange = (e: ChangeEvent<HTMLSelectElement>) => {
 		characterStore.setFilter(e.target.value)
 	}
-    const {statusFilter} = characterStore
-    console.log(statusFilter);
-    
+	const { statusFilter } = characterStore
+
 	const filterOptions = [
 		{ label: 'all', value: 'all' },
 		{ label: 'alive', value: 'alive' },

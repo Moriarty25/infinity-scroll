@@ -90,11 +90,11 @@ export const App = observer(() => {
 										<Group
 											header={
 												<Header
-													style={{alignItems: 'center'}}
+													style={{ alignItems: 'center' }}
 													mode="secondary"
 													aside={<StatusFilter />}
 												>
-													 Characters
+													Characters
 												</Header>
 											}
 										>
