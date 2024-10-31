@@ -20,7 +20,6 @@ export function useScroll(
 		}
 
 		observer.current = new IntersectionObserver(([target]) => {
-            console.log("Intersecting");
 			if (target.isIntersecting) {
 				memoizedCallback()
 			}

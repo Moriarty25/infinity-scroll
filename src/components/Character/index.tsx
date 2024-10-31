@@ -32,9 +32,9 @@ export const Character: FC<TCharacterProps> = ({
 				subheader={
 					<>
 						<ul>
-							<li>"status": {status}</li>
-							<li>"species": {species}</li>
-							<li>"gender": {gender}</li>
+							<li>status: {status}</li>
+							<li>species: {species}</li>
+							<li>gender: {gender}</li>
 						</ul>
 					</>
 				}

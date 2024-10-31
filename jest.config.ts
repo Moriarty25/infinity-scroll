@@ -1,8 +1,12 @@
-import type { Config } from 'jest'
-import { defaults } from 'jest-config'
+import type { Config } from 'jest';
 
 const config: Config = {
-	moduleFileExtensions: [...defaults.moduleFileExtensions, 'mts'],
-	testEnvironment: 'jest-environment-jsdom'
-}
-export default config
+  preset: 'ts-jest',
+  testEnvironment: 'node',
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  transform: {
+    '^.+\\.tsx?$': ['ts-jest', { /* ts-jest конфигурация может быть добавлена сюда */ }]
+  },
+};
+
+export default config;
