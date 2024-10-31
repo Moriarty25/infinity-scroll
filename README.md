@@ -1,45 +1,50 @@
+<h1 align="center"> Рик и Морти - Бесконечный Скролл </h1>
 
-<h1 align="center"> Rick and Morty - Infinity Scroll </h1>
+<h4>Приложение реализует функцию бесконечного скролла и фильтрации в контексте известного мультсериала</h4>
 
-<h4>This application allows you to learn the characters of the famous cartoon using endless scrolling</h4>
+<p align="center"><img width=200 src="https://static.wikia.nocookie.net/character-power/images/5/59/Rick_and_Morty.jpg/revision/latest/scale-to-width-down/700?cb=20190128165753&path-prefix=ru"></p>
 
-<p align="center"><img width=100 src="https://rickandmortyapi.com/api/character/avatar/19.jpeg"></p>
-
-----
-created with: [Rick and Morty API](https://rickandmortyapi.com/)
 ---
-## Getting Started
-Clone git repository
 
- `git clone https://github.com/Moriarty25/infinity-scroll.git`
+## created with: [Rick and Morty API](https://rickandmortyapi.com/)
 
-Run in the project directory:
+## Начало работы
+
+Клонируйте репозиторий git
+
+`git clone https://github.com/Moriarty25/infinity-scroll.git`
+
+Запустите в директории проекта:
 
 ### `npm install`
 
-Install all dependencies.
+Установите все зависимости.
 
-### Development Mode
+### Режим разработки
 
 ### `npm run dev`
 
-Runs the app in the development mode. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.\
-The page will reload when you make changes. 
+Запускает приложение в режиме разработки. Откройте [http://localhost:5173](http://localhost:5173), чтобы увидеть его в вашем браузере.\
+Страница будет перезагружаться при внесении изменений.
 
-### Build for Production
-To build the app for production and generate static files in the dist folder, use:
+### Сборка для продакшена
+
+Чтобы собрать приложение для продакшена и сгенерировать статические файлы в папке dist, используйте:
 
 ### `npm run build`
 
-### Preview Production Build
-To preview the production build locally, use:
+### Предпросмотр сборки для продакшена
+
+Чтобы локально просмотреть сборку для продакшена, используйте:
 
 ### `npm run preview`
 
 ---
-## Stack
-* TypeScript
-* React
-* MobX
-* Vite
-  
+
+## Стек
+
+- TypeScript
+- React
+- MobX
+- VKUI 
+- Vite
